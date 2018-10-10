@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowWorldSwapnaConsole", "HellowWorldSwapnaConsole\HellowWorldSwapnaConsole.csproj", "{1FE87826-26A3-4EA4-AEC2-055497930B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowWorldAPI", "HellowWorldAPI\HellowWorldAPI.csproj", "{9E4F61B0-4D93-4058-8434-B5008A4DEC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowWorldAPI.Tests", "HellowWorldAPI.Tests\HellowWorldAPI.Tests.csproj", "{B9703938-6F82-4BF5-AC52-7116EF94A636}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1FE87826-26A3-4EA4-AEC2-055497930B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE87826-26A3-4EA4-AEC2-055497930B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE87826-26A3-4EA4-AEC2-055497930B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4F61B0-4D93-4058-8434-B5008A4DEC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4F61B0-4D93-4058-8434-B5008A4DEC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4F61B0-4D93-4058-8434-B5008A4DEC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4F61B0-4D93-4058-8434-B5008A4DEC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9703938-6F82-4BF5-AC52-7116EF94A636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9703938-6F82-4BF5-AC52-7116EF94A636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9703938-6F82-4BF5-AC52-7116EF94A636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9703938-6F82-4BF5-AC52-7116EF94A636}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
